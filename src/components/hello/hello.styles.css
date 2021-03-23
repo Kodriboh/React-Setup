@@ -1,0 +1,33 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: purple; 
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    animation-name: chameleon;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes chameleon {
+
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: green;
+    }
+
+    50% {
+        color: purple;
+    }
+
+    75% {
+        color: aqua;
+    }
+
+    100% {
+        color: maroon;
+    }
+}
